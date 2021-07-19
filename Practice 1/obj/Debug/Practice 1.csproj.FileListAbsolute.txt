@@ -1,7 +1,0 @@
-C:\Users\makai\OneDrive\Documents\Bootcamp\Practice 1\bin\Debug\Practice 1.exe.config
-C:\Users\makai\OneDrive\Documents\Bootcamp\Practice 1\bin\Debug\Practice 1.exe
-C:\Users\makai\OneDrive\Documents\Bootcamp\Practice 1\bin\Debug\Practice 1.pdb
-C:\Users\makai\OneDrive\Documents\Bootcamp\Practice 1\obj\Debug\Practice 1.csproj.AssemblyReference.cache
-C:\Users\makai\OneDrive\Documents\Bootcamp\Practice 1\obj\Debug\Practice 1.csproj.CoreCompileInputs.cache
-C:\Users\makai\OneDrive\Documents\Bootcamp\Practice 1\obj\Debug\Practice 1.exe
-C:\Users\makai\OneDrive\Documents\Bootcamp\Practice 1\obj\Debug\Practice 1.pdb
