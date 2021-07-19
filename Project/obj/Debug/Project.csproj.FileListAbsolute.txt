@@ -1,0 +1,7 @@
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Project\obj\Debug\Project.csproj.AssemblyReference.cache
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Project\bin\Debug\Project.exe.config
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Project\bin\Debug\Project.exe
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Project\bin\Debug\Project.pdb
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Project\obj\Debug\Project.exe
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Project\obj\Debug\Project.pdb
