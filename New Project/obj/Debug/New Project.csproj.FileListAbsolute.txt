@@ -1,7 +1,0 @@
-C:\Users\makai\OneDrive\Documents\Bootcamp\C#\New Project\bin\Debug\New Project.exe.config
-C:\Users\makai\OneDrive\Documents\Bootcamp\C#\New Project\bin\Debug\New Project.exe
-C:\Users\makai\OneDrive\Documents\Bootcamp\C#\New Project\bin\Debug\New Project.pdb
-C:\Users\makai\OneDrive\Documents\Bootcamp\C#\New Project\obj\Debug\New Project.csproj.AssemblyReference.cache
-C:\Users\makai\OneDrive\Documents\Bootcamp\C#\New Project\obj\Debug\New Project.csproj.CoreCompileInputs.cache
-C:\Users\makai\OneDrive\Documents\Bootcamp\C#\New Project\obj\Debug\New Project.exe
-C:\Users\makai\OneDrive\Documents\Bootcamp\C#\New Project\obj\Debug\New Project.pdb
