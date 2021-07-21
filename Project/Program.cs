@@ -15,6 +15,9 @@ namespace Project
     //DT 'char' or charcter can only have 1 letter and NEEDS to be in single quotes ''
     //Numbers DT 'int' can handle whole numbers as well as negatives. They DON'T need quotes around them
     //Float, Double and Decimal can all handle non-whole numbers. Floats are the least specific version, Doubles are a good in-between ground, and Decimals are used for highly specific cases (such as money)
+    //When you have two integers and the result is acutally a decimal, it will print out a Integer, hwne you have one integer and a decimal, it will print a decimal
+    //When you have to decimals togehter, you will always get a decimal back 
+    // Method= a block of code that performs a certain task, you call methods that can be used with data types
 
     class Program
     {
@@ -27,9 +30,9 @@ namespace Project
 
             Console.WriteLine("There was once a man named " + characterName);
             Console.WriteLine("He was " + characterAge + " years old");
-            
+
             characterName = "Mike"; //Switching it up! Same variable, different argument
-            
+
             Console.WriteLine("He really liked the name " + characterName);
             Console.WriteLine("But he didn't like being " + characterAge);
 
@@ -53,7 +56,7 @@ namespace Project
             Console.WriteLine("Coding\nDojo");
             Console.WriteLine("Here is\" Mak!");  //<- Delineating a String (actually prints one quote mark)
             Console.WriteLine(phrase);
-            
+
 
             // Finding information aka Methods!
             Console.WriteLine(phrase.ToUpper()); // Converts the phrase to all uppercase
@@ -66,10 +69,47 @@ namespace Project
             Console.WriteLine(phrase.Substring(6)); // Allows you to grab one part of the phrase starting at the position and going to the end of the called variable
             Console.WriteLine(phrase.Substring(8, 3)); //Can pass in a link (put in a , to seperate) to grab x amount of characters. EX: Starting at position 8 and grabbing 3 characters (should get 'Aca')
 
+            //Numbers and Ops
+            //There's whole numbers and decimal numbers and does distinguish between the two
+            //Can write simple math operations (addition, subtraction etc.) as well as order of operations in the parenthesis 
+            Console.WriteLine(5 * 8);
+            Console.WriteLine(5 % 2); //<- Modulus (%) Opertator 
+            Console.WriteLine((4 + 2) * 3);
+            Console.WriteLine(4 + 3 * 10);
+            Console.WriteLine(3.0 + 6.5);
+            Console.WriteLine(5 / 2);
+            Console.WriteLine(5 / 2.0);
+            Console.WriteLine(2.0 + 3);
+
+            // Shorthand ++ and -- subtract or add 1 to the num variable (6)
+            int num = 6;
+            num++;
+            Console.WriteLine(num);
+
+            //Methods for numbers (Math.)((to start it)
+            Console.WriteLine(Math.Abs(-40)); // Absolute Value: 40
+            Console.WriteLine(Math.Pow(3, 2)); //Power: 3 to the power of 2
+            Console.WriteLine(Math.Sqrt(36)); //Square Root: 6
+            Console.WriteLine(Math.Max(4, 90)); // Max will give you the biggest number
+            Console.WriteLine(Math.Min(3, 2)); //Minumum will give you the smallest number
+            Console.WriteLine(Math.Round(4.3)); // Rounds number accorgin to standard rounding rules
+
+            //User Inputs
+            //ReadLine pauses the execution of code(program) (the window we see), but it's also waiting for user inputs (a line of text)
+            // The difference between Write and Writeline is that Wrtieline stays to one line and then goes to another. Write keeps it all together. Write allows us to write in the exe without it closing
+            //store the name in a variable and is printed out on the next line
+
+            Console.Write("Enter your name:");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello " + name);
+            Console.Write("Enter your age:");
+            string Makage = Console.ReadLine();
+            Console.WriteLine("Hello " + name + " you are " + Makage);
+
+
             Console.ReadLine();
-         
+
         }
-      
     }
-    
+
 }
