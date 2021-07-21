@@ -1,0 +1,7 @@
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Game (Mad Libs)\bin\Debug\Game (Mad Libs).exe.config
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Game (Mad Libs)\bin\Debug\Game (Mad Libs).exe
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Game (Mad Libs)\bin\Debug\Game (Mad Libs).pdb
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Game (Mad Libs)\obj\Debug\Game (Mad Libs).csproj.AssemblyReference.cache
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Game (Mad Libs)\obj\Debug\Game (Mad Libs).csproj.CoreCompileInputs.cache
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Game (Mad Libs)\obj\Debug\Game (Mad Libs).exe
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Game (Mad Libs)\obj\Debug\Game (Mad Libs).pdb
