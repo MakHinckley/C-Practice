@@ -30,6 +30,8 @@ namespace Game__Mad_Libs_
             Console.WriteLine("And I Love " + celebrity);
 
             Console.ReadLine();
+
+            // We can easily make a more complex mad lib with more lines and a longer story, but here's the basics.
         }
     }
 }
