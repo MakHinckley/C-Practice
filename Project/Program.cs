@@ -18,6 +18,9 @@ namespace Project
     //When you have two integers and the result is acutally a decimal, it will print out a Integer, hwne you have one integer and a decimal, it will print a decimal
     //When you have to decimals togehter, you will always get a decimal back 
     // Method= a block of code that performs a certain task, you call methods that can be used with data types
+    // Array= container that can hold many different values 
+
+
 
     class Program
     {
@@ -58,7 +61,7 @@ namespace Project
             Console.WriteLine(phrase);
 
 
-            // Finding information aka Methods!
+            // Finding information/Methods!
             Console.WriteLine(phrase.ToUpper()); // Converts the phrase to all uppercase
             Console.WriteLine(phrase.ToLower()); // Converts the phrase to all lowercase 
             Console.WriteLine(phrase.Length); //how many characters are in the variable
@@ -99,12 +102,27 @@ namespace Project
             // The difference between Write and Writeline is that Wrtieline stays to one line and then goes to another. Write keeps it all together. Write allows us to write in the exe without it closing
             //store the name in a variable and is printed out on the next line
 
-            Console.Write("Enter your name:");
-            string name = Console.ReadLine();
-            Console.WriteLine("Hello " + name);
-            Console.Write("Enter your age:");
-            string Makage = Console.ReadLine();
-            Console.WriteLine("Hello " + name + " you are " + Makage);
+            //Console.Write("Enter your name:");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("Hello " + name);
+            //Console.Write("Enter your age:");
+            //string Makage = Console.ReadLine();
+            //Console.WriteLine("Hello " + name + " you are " + Makage);
+
+            //Arrays 
+
+            int[] luckyNumbers = { 4,8,15,16,28,23,42 }; // each number insdie curly bracket is an element 
+            string[] friends = new string[10]; // another way to populate a array, or your not sure on what elements are going to go in the array. Still need to put a number in bracket! Will tell C# how many elements to hold
+            friends[0] = "Chris"; // assigning string "Chris" to position 0 in the firends array (a way to add information to the array)
+            friends[1] = "Alex"; // same as above, but at postion 1. 
+            
+            Console.WriteLine(luckyNumbers[0]); // will access position 0 (4)
+            
+            luckyNumbers[1] = 900; // changing a element 
+            Console.WriteLine(luckyNumbers[1]);
+
+
+
 
 
             Console.ReadLine();
