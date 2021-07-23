@@ -1,0 +1,7 @@
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\C Sharp Notes cont\bin\Debug\C Sharp Notes cont.exe.config
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\C Sharp Notes cont\bin\Debug\C Sharp Notes cont.exe
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\C Sharp Notes cont\bin\Debug\C Sharp Notes cont.pdb
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\C Sharp Notes cont\obj\Debug\C Sharp Notes cont.csproj.AssemblyReference.cache
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\C Sharp Notes cont\obj\Debug\C Sharp Notes cont.csproj.CoreCompileInputs.cache
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\C Sharp Notes cont\obj\Debug\C Sharp Notes cont.exe
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\C Sharp Notes cont\obj\Debug\C Sharp Notes cont.pdb
