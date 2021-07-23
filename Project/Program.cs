@@ -121,13 +121,33 @@ namespace Project
             luckyNumbers[1] = 900; // changing a element 
             Console.WriteLine(luckyNumbers[1]);
 
-
-
+            // Calling on a new method 
+            // Since defining a parameter inside of the SayHi method, you will need to put a string inside of the action that is calling on the method
+            //EX: SayHi(); <- will throw error because it's not defined. Below is the correct way.
+            
+            SayHi("Mike", 33);
+            SayHi("Chris", 25);
+            SayHi("Garrus", 4);
 
 
             Console.ReadLine();
 
         }
-    }
+        //New Method creation
+        //need to tell C# a few things, first start with static (more later), then sepcify a return type (perform specific tasks for us and gives us info back.)
+        //Then name the method (make sure it is capitalized!!)
+        // More on return types later, but for this we will use void. 
+        //Void= doesn't return any info
+        // Any code put in this method will be ran when called upon.
+        // methods can take in paraments/arguments. They're put inside of the parenthesis.
+        // Can use methods as many times as you want and anywhere in your program.
+
+        static void SayHi(string name, int age) // putting in a parameter and designating a variable "name" to later be used when the method is called upon. Same with age
+        {
+            Console.WriteLine("Hello " + name + " you are " + age);
+
+        }
+    }   
+
 
 }
