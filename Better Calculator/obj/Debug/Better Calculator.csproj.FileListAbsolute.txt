@@ -1,0 +1,7 @@
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Better Calculator\bin\Debug\Better Calculator.exe.config
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Better Calculator\bin\Debug\Better Calculator.exe
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Better Calculator\bin\Debug\Better Calculator.pdb
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Better Calculator\obj\Debug\Better Calculator.csproj.AssemblyReference.cache
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Better Calculator\obj\Debug\Better Calculator.csproj.CoreCompileInputs.cache
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Better Calculator\obj\Debug\Better Calculator.exe
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Better Calculator\obj\Debug\Better Calculator.pdb
