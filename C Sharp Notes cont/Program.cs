@@ -19,6 +19,7 @@ namespace C_Sharp_Notes_cont
         // || (or) allows there to be only one true condition
         //EX: if you are a male, but you are tall, the first condition will be ran; same if you were to flip the scenario. IF both are false, then the second condition will run instead.
         // ! (negation operator) same as python
+        // inside of if statements, you can have comparisons (that compare tw values) 
 
 
 
@@ -80,7 +81,7 @@ namespace C_Sharp_Notes_cont
                 Console.WriteLine("Both are false! :(");
             }
 
-
+            Console.WriteLine(GetMax(20, 10, 40));
             Console.ReadLine();
         }
 
@@ -89,6 +90,29 @@ namespace C_Sharp_Notes_cont
             int result = num * num * num;
             return result;
         }
-        
+
+
+        //Comparisons EX: 
+        static int GetMax(int num1, int num2, int num3) // THE MAX METHOD= taking in two or more parameters and telling us which one is higher
+        {
+            int result;
+
+            if (num1 >= num2 && num1 > num3)
+            {
+                result = num1;
+
+            }
+            else if (num2 >= num1 && num2 >= num3)
+            {
+                result = num2;
+            }
+            else
+            {
+                result = num3;
+            }
+            return result;
+        }
+
+
     }
 }
