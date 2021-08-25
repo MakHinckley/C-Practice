@@ -20,7 +20,7 @@ namespace C_Sharp_Notes_cont
         //EX: if you are a male, but you are tall, the first condition will be ran; same if you were to flip the scenario. IF both are false, then the second condition will run instead.
         // ! (negation operator) same as python
         // inside of if statements, you can have comparisons (that compare tw values) 
-
+        // Switch Statements= special kind of if statement where you can check a ton of different statements easily
 
 
         static void Main(string[] args)
@@ -81,7 +81,24 @@ namespace C_Sharp_Notes_cont
                 Console.WriteLine("Both are false! :(");
             }
 
-            Console.WriteLine(GetMax(20, 10, 40));
+            Console.WriteLine(GetMax(20, 10, 40)); // Comparison EX
+
+            Console.WriteLine(GetDay(4)); // Switch Statement EX:
+
+
+
+            //WHILE LOOPS
+            //Same concept as if statements
+            //Keeps going until the condition is FALSE, keeps looping through the same stuff. (similar to Python)
+            //works only if the condition is TRUE
+
+            int index = 1;  //Creates the variable (AKA prints it) Then it checks the condition
+            while (index <= 5)
+            {
+                Console.WriteLine(index);
+                index++;    //What this is saying is that if index is less than or equal to 5, add 1 interger to index. When it reaches or is eaqu to 5, than the loop stops.
+            }
+
             Console.ReadLine();
         }
 
@@ -113,6 +130,48 @@ namespace C_Sharp_Notes_cont
             return result;
         }
 
+        //SWITCH STATEMENTS
+        //Switch parameter needs a value
+        //Anything you can do in a switch statement, you can do in a if statement. Just makes it easier/ less messier.
+        //break is a reserved word that we use to "break" out of the current case, if no break, it will keep checking the same case over and over.
+        //case is essentially a value that is checked.
+        //The default statement is executed if no case constant-expression value is equal to the value of expression
+        static string GetDay(int dayNum)
+        {
 
+            string dayName;
+
+            switch (dayNum)
+            {
+                case 0:
+                    dayName = "Sunday";
+                    break;     
+                case 1:
+                    dayName = "Monday";
+                    break;
+                case 2:
+                    dayName = "Tuesday";
+                    break;
+                case 3:
+                    dayName = "Wednesday";
+                    break;
+                case 4:
+                    dayName = "Thursday";
+                    break;
+                case 5:
+                    dayName = "Friday";
+                    break;
+                case 6:
+                    dayName = "Saturday";
+                    break;
+
+                default:
+                    dayName = "Invalid Day Number";
+                    break;
+            }
+
+            return dayName;
+        }
+       
     }
 }
