@@ -99,8 +99,39 @@ namespace C_Sharp_Notes_cont
                 index++;    //What this is saying is that if index is less than or equal to 5, add 1 interger to index. When it reaches or is eaqu to 5, than the loop stops.
             }
 
+            //FOR LOOPS
+            //while loops take in the condition, but we need three things to go in the parenthesis for a for loop
+            //First thing to do is initialize the variable
+            //Second is the loop condition (how long do we need to loop for)
+            //Last is the change that happens to the condition (do we add, subtract? etc.) Get's executed afte every single iteration until condition is met.
+            // conditions are seperated by semi colons 
+            int[] luckyNums = { 4, 8, 15, 16, 23, 42 };
+            
+            for (int i = 0; i < luckyNums.Length; i++)
+            {
+                Console.WriteLine(luckyNums[i]);
+                
+            }
+
+            Console.WriteLine(GetPow(4, 2));
+
             Console.ReadLine();
         }
+        
+        //EXPONENT METHODS:a function where we can pass in a base number and a power number. EX: 2,3 -> 2^3
+        //Only works for positive numbers
+        static int GetPow(int baseNum, int powNum)
+        {
+            int result = 1;
+
+            for (int a =0; a < powNum; a++)
+            {
+                result = result * baseNum;
+
+            }
+            return result; 
+        }
+
 
         static int Cube(int num) // <- you can return anything! Strings, ints, doubles, arrays etc. 
         {
