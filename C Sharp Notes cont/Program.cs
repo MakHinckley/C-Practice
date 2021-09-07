@@ -115,6 +115,23 @@ namespace C_Sharp_Notes_cont
 
             Console.WriteLine(GetPow(4, 2));
 
+
+
+            // 2D Arrays
+            //Accessing elements in a array
+            //To add more dimensions in a array, add more commas in the beginning EX: int[,,,] 
+
+            int[,] numberGrid = {
+                {1,2 },
+                {3,4 },
+                {5,6 }
+             
+            };
+
+            // If you're unsure of the actual numbers, but know how many. 
+            //int[,] myArray = new int[2, 3]; // This creates a new variable, myArray, and sets it to a 2D array that has two rows and three columns. 
+            Console.WriteLine(numberGrid[0, 0]);
+
             Console.ReadLine();
         }
         
