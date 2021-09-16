@@ -1,0 +1,7 @@
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Last Notes (Objects, Constructors etc.)\bin\Debug\Last Notes (Objects, Constructors etc.).exe.config
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Last Notes (Objects, Constructors etc.)\bin\Debug\Last Notes (Objects, Constructors etc.).exe
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Last Notes (Objects, Constructors etc.)\bin\Debug\Last Notes (Objects, Constructors etc.).pdb
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Last Notes (Objects, Constructors etc.)\obj\Debug\Last Notes (Objects, Constructors etc.).csproj.AssemblyReference.cache
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Last Notes (Objects, Constructors etc.)\obj\Debug\Last Notes (Objects, Constructors etc.).csproj.CoreCompileInputs.cache
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Last Notes (Objects, Constructors etc.)\obj\Debug\Last Notes (Objects, Constructors etc.).exe
+C:\Users\makai\OneDrive\Documents\Bootcamp\C#\Last Notes (Objects, Constructors etc.)\obj\Debug\Last Notes (Objects, Constructors etc.).pdb
