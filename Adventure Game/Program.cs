@@ -10,6 +10,9 @@ namespace Adventure_Game
     {
         static void Main(string[] args)
         {
+            string left, right, up, down, option1, option2, 
+            Console.ReadLine(); 
+
         }
     }
 }
